@@ -6,7 +6,19 @@ description: Bloomberg Tradebook is an electronic brokerage and agency trading p
   trading, direct market access, and transaction cost analysis (TCA) via FIX protocol
   connectivity and integration with Bloomberg Terminal workflows.
 type: Index
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+accessModel:
+  pricing: freemium
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Freemium
+  confidence: medium
+  source:
+  - plans
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bloomberg-tradebook.png
 url: https://raw.githubusercontent.com/api-evangelist/bloomberg-tradebook/refs/heads/main/apis.yml
 created: '2024-01-01'
 modified: '2026-04-21'
