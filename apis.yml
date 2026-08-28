@@ -5,6 +5,17 @@ description: Bloomberg Tradebook is an electronic brokerage and agency trading p
   Tradebook provides algorithmic trading, direct market access, and transaction cost analysis (TCA) via FIX protocol
   connectivity and integration with Bloomberg Terminal workflows.
 type: Index
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: freemium
   onboarding: unknown
