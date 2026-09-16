@@ -1,9 +1,9 @@
 aid: bloomberg-tradebook
 name: Bloomberg Tradebook
-description: Bloomberg Tradebook is an electronic brokerage and agency trading platform offering execution services
-  across global equities, futures, options, and foreign exchange. Founded in 1996 as a Bloomberg LP subsidiary,
-  Tradebook provides algorithmic trading, direct market access, and transaction cost analysis (TCA) via FIX protocol
-  connectivity and integration with Bloomberg Terminal workflows.
+description: Bloomberg Tradebook is an electronic brokerage and agency trading platform offering execution
+  services across global equities, futures, options, and foreign exchange. Founded in 1996 as a Bloomberg
+  LP subsidiary, Tradebook provides algorithmic trading, direct market access, and transaction cost analysis
+  (TCA) via FIX protocol connectivity and integration with Bloomberg Terminal workflows.
 type: Index
 deliveryModel:
   model: saas
@@ -31,7 +31,7 @@ accessModel:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bloomberg-tradebook.png
 url: https://raw.githubusercontent.com/api-evangelist/bloomberg-tradebook/refs/heads/main/apis.yml
 created: '2024-01-01'
-modified: '2026-08-27'
+modified: '2026-09-16'
 specificationVersion: '0.23'
 tags:
 - Tradebook
@@ -45,8 +45,9 @@ tags:
 apis:
 - aid: bloomberg-tradebook:tradebook-fix-api
   name: Bloomberg Tradebook FIX API
-  description: FIX protocol connectivity to Bloomberg Tradebook for electronic order routing, execution reporting,
-    and position updates across equities, futures, options, and FX markets. Supports FIX 4.2, 4.4, and 5.0.
+  description: FIX protocol connectivity to Bloomberg Tradebook for electronic order routing, execution
+    reporting, and position updates across equities, futures, options, and FX markets. Supports FIX 4.2,
+    4.4, and 5.0.
   humanURL: https://www.bloomberg.com/professional/product/tradebook/
   baseURL: fixs://tradebook.bloomberg.com:8194
   tags:
@@ -60,8 +61,8 @@ apis:
     url: https://www.bloomberg.com/professional/product/tradebook/
 - aid: bloomberg-tradebook:emsx-tradebook-integration
   name: Bloomberg EMSX-Tradebook Integration
-  description: Integration between Bloomberg's Electronic Order Management System (EMSX) and Tradebook for seamless
-    order routing from the Bloomberg Terminal to Tradebook execution desks and algorithms.
+  description: Integration between Bloomberg's Electronic Order Management System (EMSX) and Tradebook
+    for seamless order routing from the Bloomberg Terminal to Tradebook execution desks and algorithms.
   humanURL: https://www.bloomberg.com/professional/solution/emsx/
   baseURL: blpapi://localhost:8194
   tags:
@@ -73,8 +74,9 @@ apis:
     url: https://www.bloomberg.com/professional/solution/emsx/
 - aid: bloomberg-tradebook:tradebook-fx
   name: Bloomberg Tradebook FX Marketplace
-  description: Bloomberg Tradebook's foreign exchange marketplace for electronic FX spot, forward, and swap execution.
-    Launched in 2007, providing competitive FX pricing and execution from major liquidity providers.
+  description: Bloomberg Tradebook's foreign exchange marketplace for electronic FX spot, forward, and
+    swap execution. Launched in 2007, providing competitive FX pricing and execution from major liquidity
+    providers.
   humanURL: https://www.bloomberg.com/professional/product/tradebook/
   baseURL: https://fx.tradebook.bloomberg.com
   tags:
@@ -87,6 +89,8 @@ apis:
   - type: Documentation
     url: https://www.bloomberg.com/professional/product/tradebook/
 common:
+- type: Website
+  url: https://bloomberg.com
 - type: ParentCompany
   url: https://apis.io/providers/bloomberg/
   name: Bloomberg
