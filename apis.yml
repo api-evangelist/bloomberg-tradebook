@@ -36,6 +36,15 @@ specificationVersion: '0.23'
 tags:
 - Tradebook
 - Electronic Trading
+- Stocks
+- Futures
+- Options
+- FX
+- Agency Brokerage
+- Bloomberg
+tags_raw:
+- Tradebook
+- Electronic Trading
 - Equities
 - Futures
 - Options
@@ -51,6 +60,12 @@ apis:
   humanURL: https://www.bloomberg.com/professional/product/tradebook/
   baseURL: fixs://tradebook.bloomberg.com:8194
   tags:
+  - FIX Protocol
+  - Order Routing
+  - Electronic Trading
+  - Stocks
+  - Futures
+  tags_raw:
   - FIX Protocol
   - Order Routing
   - Electronic Trading
