@@ -39,7 +39,7 @@ tags:
 - Stocks
 - Futures
 - Options
-- FX
+- Foreign Exchange
 - Agency Brokerage
 - Bloomberg
 tags_raw:
@@ -95,6 +95,11 @@ apis:
   humanURL: https://www.bloomberg.com/professional/product/tradebook/
   baseURL: https://fx.tradebook.bloomberg.com
   tags:
+  - Foreign Exchange
+  - Spot
+  - Forward
+  - Swap
+  tags_raw:
   - FX
   - Foreign Exchange
   - Spot
