@@ -64,20 +64,107 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Bloomberg Tradebook is an electronic brokerage and agency trading platform offering execution services across global equities, futures, options, and FX. Founded in 1996, Tradebook provides algorithmic trading, DMA, and TCA via FIX connectivity integrated with Bloomberg Terminal workflows.
+Bloomberg Tradebook is an electronic brokerage and agency trading platform offering execution services across global equities, futures, options, and foreign exchange. Founded in 1996 as a Bloomberg LP subsidiary, Tradebook provides algorithmic trading, direct market access, and transaction cost analysis (TCA) via FIX protocol connectivity and integration with Bloomberg Terminal workflows.
 
-## APIs
+**Areas:** Tradebook · Electronic Trading · Stocks · Futures · Options · Foreign Exchange · Agency Brokerage · Bloomberg
 
-- **Bloomberg Tradebook FIX API** - FIX protocol order routing and execution
-- **Bloomberg EMSX-Tradebook Integration** - Terminal-integrated order routing
-- **Bloomberg Tradebook FX Marketplace** - Electronic FX execution marketplace
+## Bloomberg Tradebook on APIs.io
 
-## Resources
+Everything profiled for Bloomberg Tradebook is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/bloomberg-tradebook/](https://apis.io/providers/bloomberg-tradebook/)** — or go straight to one of the APIs or properties below.
 
-- [Bloomberg Tradebook](https://www.bloomberg.com/professional/product/tradebook/)
-- [Bloomberg EMSX](https://www.bloomberg.com/professional/solution/emsx/)
-- [Bloomberg Professional Portal](https://www.bloomberg.com/professional/)
+### APIs (3)
 
-## Profile
+- [Bloomberg Tradebook FIX API](https://apis.io/apis/bloomberg-tradebook/tradebook-fix-api/) — FIX protocol connectivity to Bloomberg Tradebook for electronic order routing, execution reporting, and position updates across equities, futures, options,…
+- [Bloomberg EMSX-Tradebook Integration](https://apis.io/apis/bloomberg-tradebook/emsx-tradebook-integration/) — Integration between Bloomberg's Electronic Order Management System (EMSX) and Tradebook for seamless order routing from the Bloomberg Terminal to Tradebook…
+- [Bloomberg Tradebook FX Marketplace](https://apis.io/apis/bloomberg-tradebook/tradebook-fx/) — Bloomberg Tradebook's foreign exchange marketplace for electronic FX spot, forward, and swap execution. Launched in 2007, providing competitive FX pricing…
 
-See [apis.yml](apis.yml) for the full API profile.
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Bloomberg Tradebook Domain Security](https://apis.io/security/bloomberg-tradebook/bloomberg-tradebook-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Bloomberg Tradebook Plans Pricing](https://apis.io/plans/bloomberg-tradebook/bloomberg-tradebook-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Bloomberg Tradebook Rate Limits](https://apis.io/rate-limits/bloomberg-tradebook/bloomberg-tradebook-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Bloomberg Tradebook Finops](https://apis.io/finops/bloomberg-tradebook/bloomberg-tradebook-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://bloomberg.com)
+- [Documentation](https://www.bloomberg.com/professional/product/tradebook/)
+- [Support](https://www.bloomberg.com/professional/support/)
+- [Terms of service](https://www.bloomberg.com/notices/tos/)
+- [Privacy policy](https://www.bloomberg.com/privacy/)
+
+## API Evangelist rating
+
+**Kin Score 17.5** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 62.5 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 7.9 |
+| Developer ergonomics | 23.8 |
+| Access clarity | 28.9 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 18.5** — Securities & Market Data
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/bloomberg-tradebook/](https://apis.io/providers/bloomberg-tradebook/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Bloomberg Tradebook: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/bloomberg-tradebook/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
